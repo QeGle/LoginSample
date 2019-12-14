@@ -1,6 +1,7 @@
 class TicketInfo {
   TicketInfo(this.flightDate, this.boardingTime, this.gate, this.seat,
       this.fligthNo, this.seatClass, this.price, this.barcode);
+
   final String flightDate;
   final String boardingTime;
   final String gate;

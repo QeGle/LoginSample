@@ -23,6 +23,7 @@ class SimpleBorders extends StatelessWidget {
 
   final BorderSide side =
       BorderSide(style: BorderStyle.solid, color: ColorPalette().lightGreen300);
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -37,6 +38,4 @@ class SimpleBorders extends StatelessWidget {
         )),
         child: widget);
   }
-
-  
 }

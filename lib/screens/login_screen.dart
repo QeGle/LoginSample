@@ -27,7 +27,9 @@ class _LoginScreenState extends State<LoginScreen> {
               fit: BoxFit.cover,
               height: 100,
             ),
-            SizedBox(height: 80,),
+            SizedBox(
+              height: 80,
+            ),
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: LoginField(

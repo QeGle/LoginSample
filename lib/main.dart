@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:login_sample/screens/login_screen.dart';
 
@@ -9,11 +10,11 @@ class MyApp extends StatelessWidget {
     return app();
   }
 
-    MaterialApp app() {
+  MaterialApp app() {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light(),
-    darkTheme: ThemeData.dark(),
+      darkTheme: ThemeData.dark(),
       home: LoginScreen(),
     );
   }

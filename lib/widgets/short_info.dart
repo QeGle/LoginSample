@@ -4,6 +4,7 @@ import 'package:login_sample/utils/utils.dart';
 
 class ShortInfoCard extends StatelessWidget {
   ShortInfoCard(this.ticket);
+
   final palette = ColorPalette();
   final TicketInfo ticket;
 
@@ -15,21 +16,20 @@ class ShortInfoCard extends StatelessWidget {
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-             Image.asset(
+            Image.asset(
               "images/emirates_airlines.png",
               fit: BoxFit.cover,
               height: 100,
             ),
-
             SizedBox(height: 48),
             getCell("Ticket Price", ticket.price)
           ],
         ),
         Image.asset(
-              "images/uae.png",
-              fit: BoxFit.cover,
-              width: 180,
-            ),
+          "images/uae.png",
+          fit: BoxFit.cover,
+          width: 180,
+        ),
       ],
     );
   }
@@ -41,7 +41,7 @@ class ShortInfoCard extends StatelessWidget {
         children: <Widget>[
           Text(first,
               style: TextStyle(
-                fontWeight: FontWeight.w500,
+                  fontWeight: FontWeight.w500,
                   fontSize: 16,
                   color: palette.lightGreen600)),
           SizedBox(height: 12),

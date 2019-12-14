@@ -2,10 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:login_sample/models/ticket.dart';
 import 'package:login_sample/utils/utils.dart';
 
-
-
 class InfoCard extends StatelessWidget {
   InfoCard(this.ticket);
+
   final palette = ColorPalette();
   final TicketInfo ticket;
 

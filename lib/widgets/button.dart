@@ -3,6 +3,7 @@ import 'package:login_sample/utils/utils.dart';
 
 class LoginButton extends StatefulWidget {
   LoginButton({@required this.onPressed, @required this.child});
+
   final VoidCallback onPressed;
   final Widget child;
 
@@ -11,7 +12,8 @@ class LoginButton extends StatefulWidget {
 }
 
 class _LoginButtonState extends State<LoginButton> {
-   final palette = ColorPalette();
+  final palette = ColorPalette();
+
 //  int _buttonShade = 500;
 //  int _shadowShade = 800;
 

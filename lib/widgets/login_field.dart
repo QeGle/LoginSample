@@ -4,6 +4,7 @@ import 'package:login_sample/utils/utils.dart';
 
 class LoginField extends StatelessWidget {
   LoginField({this.icon, this.label, this.obscureText = false});
+
   final palette = ColorPalette();
   final IconData icon;
   final String label;
@@ -45,9 +46,10 @@ class LoginField extends StatelessWidget {
                         },
                         style: TextStyle(color: Colors.grey[400]),
                         decoration: InputDecoration(
-                          hintStyle:TextStyle(fontSize: 4),
+                          hintStyle: TextStyle(fontSize: 4),
                           labelText: label,
-                          labelStyle: TextStyle(color: Colors.grey[400],fontSize: 12),
+                          labelStyle:
+                              TextStyle(color: Colors.grey[400], fontSize: 12),
                           border: InputBorder.none,
                         ),
                       ),
@@ -57,6 +59,4 @@ class LoginField extends StatelessWidget {
       ],
     );
   }
-
- 
 }

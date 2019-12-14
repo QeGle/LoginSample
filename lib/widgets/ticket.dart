@@ -6,6 +6,7 @@ import 'package:login_sample/widgets/short_info.dart';
 
 class TicketCard extends StatelessWidget {
   TicketCard(this.ticket);
+
   final palette = ColorPalette();
   final TicketInfo ticket;
 
